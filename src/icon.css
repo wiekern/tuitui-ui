@@ -1,0 +1,15 @@
+/*
+ * @Author: Yafei
+ * @Date: 2019-07-06 07:57 PM
+ * @Last Modified by: Yafei
+ * @Last Modified time: 2019-07-06 
+ */
+ 
+ @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ /* @import '//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css'; */
+
+ .fa {
+   display: inline-block;
+   text-align: center;
+ }

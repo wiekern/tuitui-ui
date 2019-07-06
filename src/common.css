@@ -1,0 +1,24 @@
+/*
+ * @Author: Yafei
+ * @Date: 2019-07-06 07:57 PM
+ * @Last Modified by: Yafei
+ * @Last Modified time: 2019-07-06 
+ */
+
+html {
+  font-size: 20px;
+}
+
+/* Screen width < 340px */
+@media (max-width: 340px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Screen width > 410px */
+@media(min-width: 410px) {
+  html {
+    font-size: 22px
+  }
+}
