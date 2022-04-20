@@ -13,3 +13,9 @@
 
  /* Font icon */
  @import './icon.css';
+
+ @import './header.css';
+
+ @import './content.css';
+
+ @import './navbar.css';

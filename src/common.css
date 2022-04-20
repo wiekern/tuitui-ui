@@ -9,6 +9,13 @@ html {
   font-size: 20px;
 }
 
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #f8f8f8;
+  overflow-x: hidden;
+}
+
 /* Screen width < 340px */
 @media (max-width: 340px) {
   html {
