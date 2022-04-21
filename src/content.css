@@ -9,6 +9,37 @@
     box-sizing: border-box;
     position: relative;
     overflow-y: auto;
+}
+
+.tt-header ~ .tt-content {
     padding-top: 2.3rem;
+}
+
+.tt-navbar ~ .tt-content {
     padding-bottom: 2.5rem;
+}
+
+.tt-content .tt-panel-title {
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.tt-content .tt-panel-body {
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.tt-content .tt-panel-body.no-padding {
+    padding: 0;
 }
