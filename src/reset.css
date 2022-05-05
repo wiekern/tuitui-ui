@@ -28,11 +28,11 @@ table {
 	border-spacing: 0;
 }
 /* 去掉默认的下划线 */
-a{
+a {
 	text-decoration: none;
 }
 /* 去掉input自带的边缘效果和背景颜色 */
-input{
+input {
 	outline: none;
 	background: none;
 }
