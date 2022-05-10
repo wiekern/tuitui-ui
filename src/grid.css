@@ -1,0 +1,28 @@
+/*
+ * @Author: Yafei
+ * @Date: 
+ * @Last Modified by:
+ * @Last Modified time: 
+ */
+ 
+/* 网格组件 */
+.tt-grid{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+}
+/* 网格中的格子 */
+.tt-grid > .tt-grid-item{
+    position: relative;
+    flex: 1 1 33%;
+    box-sizing: border-box;
+    padding: 1.2rem 0;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+/* 默认是3列 */
+.tt-grid .tt-grid-item:nth-child(3n){
+    border-right: none;
+}
