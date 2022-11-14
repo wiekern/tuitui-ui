@@ -30,3 +30,79 @@
     border: none;
 }
 
+.tt-form-item > .tt-form-body > .tt-input-reset {
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    background: #aaa;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.tt-form-item > .tt-form-body > .tt-input-warning {
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.tt-form-item > .tt-radio {
+    flex: 1;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+.tt-form-item > .tt-radio > .tt-radio-icon {
+    margin-right: .5rem;
+    color: #09BB07;
+    visibility: hidden;
+}
+
+.tt-form-item > .tt-radio.checked > .tt-radio-icon {
+    visibility: visible;
+}
+
+.tt-radio > .tt-radio-input {
+    position: absolute;
+    left: -999rem;
+}
+
+.tt-form-item > .tt-check {
+    flex: 1;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+.tt-form-item > .tt-check > .tt-check-icon {
+    margin-right: .5rem;
+    color: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    font-size: .6rem;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+}
+
+.tt-form-item > .tt-check.checked > .tt-check-icon {
+    background: #09BB07;
+    color: #fff;
+    border-color: rgba(0,0,0,0)
+}
+
+.tt-check > .tt-check-input {
+    position: absolute;
+    left: -999rem;
+}
