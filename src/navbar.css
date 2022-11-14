@@ -6,12 +6,34 @@
  */
 
  .tt-navbar {
-     position: fixed;
-     box-sizing: border-box;
-     width: 100%;
-     bottom: 0;
-     max-width: 640px;
-     height: 2.5rem;
-     border-top: 1px solid #ddd;
-     z-index: 200;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+    max-width: 640px;
+    height: 2.5rem;
+    border-top: 1px solid #ddd;
+    z-index: 200;
+    background: #f8f8f8;
+    text-align: center;
+ }
+ 
+ .tt-navbar > .navbar-item {
+    flex: 1;
+    color: #808080;
+ }
+
+.tt-navbar > .navbar-item > .icon {
+    padding: .3rem 0 .1rem;
+    font-size: 1.1rem;
+}
+
+.tt-navbar > .navbar-item.active {
+    color: #09bb07;
+ }
+
+ .tt-navbar > .navbar-item > .name {
+    display: block;
+    font-size: .5rem;
  }
