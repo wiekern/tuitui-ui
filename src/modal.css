@@ -1,0 +1,76 @@
+/*
+ * @Author: wiekern 
+ * @Date: 2022-11-15 15:53:58 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2022-11-15 16:22:13
+ */
+
+ .tt-modal {
+    display: none;
+ }
+ 
+ .tt-modal.show {
+    display: block;
+ }
+
+ .tt-modal .tt-modal-wrap {
+    position: absolute;
+    width: 75%;
+    max-width: 480px;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    border-radius: .4rem;
+    z-index: 301;
+ }
+
+ .tt-modal .tt-modal-body {
+    padding: 1.8rem .8rem 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+ }
+
+ .tt-modal .tt-modal-body.no-padding {
+    padding: 0;
+ }
+
+ .tt-modal .tt-modal-footer {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.tt-modal .tt-modal-footer .tt-btn {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    font-size: .8rem;
+}
+
+.tt-modal .tt-modal-footer .tt-btn + .tt-btn {
+    border-left: 1px solid #ddd;
+}
+
+.tt-modal .tt-modal-body .tt-modal-img {
+    display: block;
+    width: 100%;
+    border-radius: .3rem;;
+}
+
+.tt-modal .tt-modal-wrap .tt-modal-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin: auto;
+    font-size: .8rem;
+    color: #eee;
+    border: 1px solid #eee;
+    /* font-weight: 100; */
+    border-radius: 50%;
+}

@@ -1,8 +1,8 @@
 /*
  * @Author: Yafei
  * @Date: 2019-07-06 07:57 PM
- * @Last Modified by: Yafei
- * @Last Modified time: 2019-07-06 
+ * @Last Modified by: mikey.zhaopeng.zhaopeng
+ * @Last Modified time: 2022-11-15 15:54:1815:54:18
  */
 
  /* css reset */
@@ -31,3 +31,5 @@
  @import './grid.css';
  
  @import './menu.css';
+
+ @import './modal.css';
